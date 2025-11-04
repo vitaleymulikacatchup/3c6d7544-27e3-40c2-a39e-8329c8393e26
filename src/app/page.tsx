@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -149,8 +149,7 @@ export default function Home() {
               company: "Community Member",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/7144185/pexels-photo-7144185.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Maria Shevchenko",
-              content: "The bread here reminds me of my grandmother's baking. Truly authentic Ukrainian flavors!"
+              imageAlt: "Portrait of Maria Shevchenko"
             },
             {
               id: "2",
@@ -159,8 +158,7 @@ export default function Home() {
               company: "Bread Enthusiast",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/4321590/pexels-photo-4321590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Dmitri Ivanov",
-              content: "Best Ukrainian rye bread in the city. I come here every week for fresh loaves."
+              imageAlt: "Portrait of Dmitri Ivanov"
             },
             {
               id: "3",
@@ -169,8 +167,7 @@ export default function Home() {
               company: "Local Family",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/3985069/pexels-photo-3985069.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Anna Kozlova",
-              content: "My children love the fresh pastries. The bakers are so kind and welcoming to our family."
+              imageAlt: "Portrait of Anna Kozlova"
             },
             {
               id: "4",
@@ -179,8 +176,7 @@ export default function Home() {
               company: "Restaurant Partner",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/8292809/pexels-photo-8292809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Elena Bondarenko",
-              content: "We source our bread from here for our restaurant. Quality and consistency are outstanding."
+              imageAlt: "Portrait of Elena Bondarenko"
             }
           ]}
         />
